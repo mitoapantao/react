@@ -1,0 +1,278 @@
+.App {
+  font-family: "Helvetica";
+  width: 1800px;
+}
+.log{
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 18px;
+}
+.ol {
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    display: block;
+    width: 1863px;
+    height: 44px;
+    background: rgba(0,0,0,0.92);
+    filter: contrast(200%);
+    opacity: 0.9;
+}
+​.menu {
+  background: rgba(0,0,0,0.92);
+  
+}
+
+.menu li {
+    font-size: 14px;
+    line-height: 3.14286;
+    font-weight: 400;
+    letter-spacing: -.02em;
+    font-family: "Helvetica";
+    color: #f5f5f7;
+    position: relative;
+    z-index: 1;
+    display: inline;
+    padding: 0 38px;
+    height: 44px;
+    opacity: .65;
+    background: no-repeat;
+    text-decoration: none;
+    white-space: nowrap;
+    -webkit-tap-highlight-color: transparent;
+    
+}
+.slider{
+  background-color: #efe5fe;
+  height: 697px;
+  width: 1903px;
+  background-size: 50% 110%;
+  background-repeat: no-repeat;
+  background-position: top;
+ 
+}
+.slider1{
+  background-image: url("https://www.apple.com/v/home/z/images/heroes/ipad-pro/hero_ipad_pro__gl982dtu49im_largetall.jpg");
+  margin-top: 360px;
+  top: 50px;
+  background-color: #000000;
+  height: 797px;
+  width: 1903px;
+  background-size: 140% 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.slider2{
+  background-image: url("https://www.apple.com/la/home/images/heroes/imac/hero_imac_avail__zbofyl96mzmm_largetall.jpg");
+  margin-top: 10px;
+  background-color: #000000;
+  height: 797px;
+  width: 1903px;
+  background-size: 140% 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.wraper{
+  display: grid;
+}
+.one {
+  margin: 10px;
+  background-image: url("https://www.apple.com/v/home/z/images/promos/iphone-12-pro/iphone_12_pro_us__e5oyysg4k0ya_large.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 140% 100%;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  height: 650px;
+}
+.two {
+  margin: 10px;
+  background-image: url("https://www.apple.com/la/home/images/promos/watch-series-6/promo_watch_series_6_lte__f8lrasjnry2y_large.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 140% 100%;
+  grid-column: 2/2;
+  grid-row: 1/3;
+  height: 650px;
+}
+.three {
+  margin: 10px;
+  background-image: url("https://www.apple.com/v/home/z/images/promos/airtag/promo_airtag__e6b73a64nno2_large.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 140% 100%;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  height: 750px;
+}
+.four {
+    margin: 10px;
+  background-image: url("https://www.apple.com/v/home/z/images/promos/arcade-wonderbox/promo_arcade_wonderbox__emq7ob1vhtw2_large.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 140% 100%;
+  grid-column: 2/2;
+  grid-row: 2/3;
+  height: 750px;
+}
+.five {
+  margin: 10px;
+  background-color: #fafafa;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 140% 100%;
+  grid-column: 1/2;
+  grid-row: 3/3;
+  height: 750px;
+}
+.six {
+  
+  margin: 10px;
+  background-image: url("https://www.apple.com/la/home/images/promos/tv-plus-device-offer/tile_greyhound__e35b5brgkmi6_xlarge.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 140% 100%;
+  grid-column: 2/2;
+  grid-row: 3/3;
+  height: 750px;
+}
+.seven {
+  display: grid;
+  border-bottom: 1px solid #d2d2d7;
+    color: #86868b;
+    padding: 17px 0 11px;
+  font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    justify-content: center;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+   
+}
+.footer1
+{
+  grid-column: 1/1;
+  grid-row: 1/5;
+
+}
+.footer2
+{
+  grid-column: 1/1;
+  grid-row: 2/5;
+
+}
+.footer3
+{
+  grid-column: 1/1;
+  grid-row: 3/5;
+
+}
+.footer4
+{
+  grid-column: 1/4;
+  grid-row: 4/5;
+
+}
+.footer41
+{
+  grid-column: 1/4;
+  grid-row: 4/5;
+
+}
+.footer42
+{
+  grid-column: 2/4;
+  grid-row: 4/5;
+
+}
+.footer43
+{
+  grid-column: 3/4;
+  grid-row: 4/5;
+
+}
+.footer44
+{
+  grid-column: 4/4;
+  grid-row: 4/5;
+
+}
+.footer5
+{
+  grid-column: 1/1;
+  grid-row: 5/5;
+
+}
+.texto{
+  padding-top: 55px;
+  text-align: center;
+  position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    z-index: 4;
+    pointer-events: none;
+    margin-top: var(--global-nav-collective-height);
+}
+.tituloh1{
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -.005em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+.subtituloh1{
+  font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 6px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+}
+.texto2{
+  margin-top: 0;
+    color: #86868b;
+}
+.link{
+  font-family: "SF Pro Icons";
+    color: inherit;
+    display: inline-block;
+    font-style: normal;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: 1;
+    text-decoration: underline;
+    position: relative;
+    z-index: 1;
+    alt: '';
+  display: inline-block;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .65em;
+    position: relative;
+    z-index: 4;
+    text-decoration: none;
+  color: #06c;
+    letter-spacing: inherit;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
